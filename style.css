@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.scenes{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.scenes img{
+    width: inherit;
+    height: 100vh;
+
+}
+img[alt = 'gigachad']{
+    left: 10px;
+    position: absolute;
+    transition: top 0.2s ease-in-out;
+    filter: drop-shadow(1px 1px 40px rgb(89, 45, 211));
+    width: 120px;
+    height: 120px;
+    z-index: 5;
+    top: 40vh;
+}
+::-webkit-scrollbar{
+    display: none;
+}
